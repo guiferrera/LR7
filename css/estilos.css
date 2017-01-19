@@ -1,0 +1,25 @@
+body {
+    color: #333333;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+header {
+	border: solid 1PX;
+	position: relative;
+}
+header h1{
+
+}
+.menu-opcoes{
+	float: right;
+	position: relative;
+}
+.menu-opcoes li{
+	display: inline-block;
+	padding: 10px;	
+}
+.menu-departamentos{
+
+}
+.menu-departamentos h1{
+
+}
