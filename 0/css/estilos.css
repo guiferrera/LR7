@@ -1,0 +1,41 @@
+body { font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;}
+.container {margin: 0 auto; width: 1200px;}
+.painel { margin: 0; position:relative;}
+
+/*cabecalho*/
+header {position: relative;}
+header h1{text-align: center;  color:#DC143C;}
+.menu-opcoes li{display: inline-block;	padding: 0 20px 20px 20px;}
+.menu-opcoes li a{text-decoration: none; color: #000; padding:5px; border-radius: 10px;}
+.menu-opcoes li a:hover{background-color: #DC143C; color: #FFB6C1;}
+.menu-opcoes li:hover{color:#c9c9c9;}
+.menu-opcoes ul{text-align: center; border-bottom: solid 1px;}
+/*cabecalho-fim*/
+
+/*corpo*/
+.corpo{height: 1300px; margin-top: 50px;}
+.left{ width: 250px; float:left;}
+.left h2{text-align:center; background-color: #DC143C; color: #fff; padding: 10px; border-radius: 20px;}
+.left li {display: block; border-bottom: solid 1px; margin-left: -40px;}
+.left a:hover{color:#B22222;; text-transform: uppercase; font-weight: bold;}
+.left li ul{ display: none;}
+.left a{text-decoration: none; color: #000;}
+.right{ float:right; padding-right: 0px}
+.right h3{background-color: #DC143C; color: #fff; padding: 20px; border-radius: 20px;}
+.right img{width:800px; height: 600px; border: solid 1px; border-radius: 20px; margin-left:15px;}
+
+.pause, .play {display: block;position: absolute;right: 15px;top: 50px;}
+.pause {border-left: 10px solid #900;border-right: 10px solid #900;height: 30px;width: 5px;}
+.play {border-left: 25px solid #900;border-bottom: 15px solid transparent;border-top: 15px solid transparent;}
+
+.novidades { text-align: center;}
+.novidades li img{width:200px; height: 150px;}
+.novidades li {display: inline-block; vertical-align: top; width: 260px; height: 200px; margin:0 0 10px 20px; padding-bottom: 10px; box-shadow: 0 0 0px #333; transition: 0.7s;}
+.novidades li:hover{background-color: rgba(255,255,255,0.8); box-shadow: 0 0 5px #333; transition: 0.7s; transform: scale(1.2);}
+/*corpo-fim*/
+
+
+
+/*rodape*/
+footer {border-top: solid 1px; border-bottom: solid 1px; margin-top: 50px; padding:20px 0; text-align:center; clear: both; position: relative; background-color: #dcdcdc;}
+/*rodape-fim*/

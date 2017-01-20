@@ -23,23 +23,20 @@
     <h1>LR7 Multimídia Marketing</h1>
         <nav class="menu-opcoes menu-cabecalho">
             <ul>
-                <li><a href="#">Início</a></li
+                <li><a href="#">Início</a></li>
                 <li><a href="#">Produtos</a></li>
                 <li><a href="#">Orçamentos</a></li>
-                <li><a href="sobre.php">Quem somos</a></li>
+                <li><a href="#">Quem somos</a></li>
                 <li><a href="#">Contato</a></li>
             </ul>
         </nav>
     </header>
     <!--Cabecalho-->
 
-    <!-- corpo -->
-    <div class="container destaque">
+    <div class="container corpo">
 
-        <!-- Menu produtos -->
-        <section class="menu-produtos">
-            <h2>Produtos</h2>
-            <nav>
+            <section class="left">
+                <h2>Produtos</h2>
                 <ul>
                     <a href="#"><li>Alicates</li></a>
                     <a href="#"><li>Artigos Religiosos</li></a>
@@ -87,42 +84,37 @@
                     <a href="#"><li>Saca Rolhas</li></a>
                     <a href="#"><li>Squeezes</li></a>
                 </ul>
-            </nav>
-        </section>
-        <!-- Menu produtos-->
+            </section>
 
-        <a href="#" class="pause"></a>
-        <img src="img/destaque-brinde.png" alt="Promoção: LR7 Marketing Multimídia">
-        <script>
-            var banners = ["img/destaque-brinde.png", "img/destaque-brinde2.jpg", "img/destaque-brinde3.jpg"];
-            var bannerAtual = 0;
-            function trocaBanner() {
-                bannerAtual = (bannerAtual + 1) % 3;
-                document.querySelector('.destaque img').src = banners[bannerAtual];
-            }
-            var timer = setInterval(trocaBanner, 4000);
-            var controle = document.querySelector('.pause');
-            controle.onclick = function() {
-            if (controle.className == 'pause') {
-                clearInterval(timer);
-                controle.className = 'play';
-                } else {
-                    timer = setInterval(trocaBanner, 4000);
-                    controle.className = 'pause';
-                }
-                return false;
-            };
-        </script>
-    </div>
-    <!-- Menu esquerda .container .destaque -->
+            <section class="right">
+                <a href="#" class="pause"></a>
+                <img src="img/destaque-brinde.png" alt="Promoção: LR7 Marketing Multimídia">
+                            <script>
+                                var banners = ["img/destaque-brinde.png", "img/destaque-brinde2.jpg", "img/destaque-brinde3.jpg"];
+                                var bannerAtual = 0;
+                                function trocaBanner() {
+                                    bannerAtual = (bannerAtual + 1) % 3;
+                                    document.querySelector('.destaque img').src = banners[bannerAtual];
+                                }
+                                var timer = setInterval(trocaBanner, 4000);
+                                var controle = document.querySelector('.pause');
+                                controle.onclick = function() {
+                                if (controle.className == 'pause') {
+                                    clearInterval(timer);
+                                    controle.className = 'play';
+                                    } else {
+                                        timer = setInterval(trocaBanner, 4000);
+                                        controle.className = 'pause';
+                                    }
+                                    return false;
+                                };
+                            </script>          
+                <h3>AQUI NA LR7 VOCÊ ENCONTRA OS PRODUTOS DE MELHOR QUALIDADE DO MERCADO</h3>
+            </section>
 
-    <div><h3>A LR7 trás muitas novidades. Aqui você encontra produtos da melhor qualidade!</h3></div>
-
-    <!-- Painel novidades -->
-    <div class="painel">
-        <section class="novidades">
-            <h2>Novidades</h2>
-            <ol>
+            <section class="right novidades">
+                <h2>Novidades</h2>
+                <ol>
                 <!-- primeiro produto -->
                 <li>
                     <a href="#">
@@ -174,13 +166,18 @@
                 </li>
                 <!-- coloque mais produtos aqui! -->
             </ol>
-        </section>
-    </div>
-    <!-- painel novidades -->
 
+            </section>
+
+    </div>
+
+
+
+    <!--footer-->
     <footer>
         <h5>© TODOS OS DIREITOS RESERVADOS 2017 | LR7 MARKETING MULTIMÍDIA</h5>
     </footer>
+    <!--footer-fim-->
 
 
 </body>
