@@ -16,20 +16,23 @@
     <!--FIM CABEÇALHO-->
 
     <!--Cabecalho-->
-    <header class="container">
+    <header>
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
     <h1>LR7 Multimídia Marketing</h1>
         <nav class="menu-opcoes menu-cabecalho">
             <ul>
-                <li><a href="#">Início</a></li>
+                <li><a href="#" class="page-atual">Início</a></li>
                 <li><a href="#">Produtos</a></li>
                 <li><a href="#">Orçamentos</a></li>
                 <li><a href="#">Quem somos</a></li>
                 <li><a href="#">Contato</a></li>
             </ul>
         </nav>
+        <div>
+            <h2 class="entrega">LR7 - ENTREGA RÁPIDA - Entregamos em todo o Brasil</h2>
+        </div>
     </header>
     <!--Cabecalho-->
 
@@ -86,7 +89,7 @@
                 </ul>
             </section>
 
-            <section class="right">
+            <section class="right banner">
                 <a href="#" class="pause"></a>
                 <img src="img/destaque-brinde.png" alt="Promoção: LR7 Marketing Multimídia">
                             <script>
@@ -94,7 +97,7 @@
                                 var bannerAtual = 0;
                                 function trocaBanner() {
                                     bannerAtual = (bannerAtual + 1) % 3;
-                                    document.querySelector('.destaque img').src = banners[bannerAtual];
+                                    document.querySelector('.banner img').src = banners[bannerAtual];
                                 }
                                 var timer = setInterval(trocaBanner, 4000);
                                 var controle = document.querySelector('.pause');
@@ -108,12 +111,18 @@
                                     }
                                     return false;
                                 };
-                            </script>          
-                <h3>AQUI NA LR7 VOCÊ ENCONTRA OS PRODUTOS DE MELHOR QUALIDADE DO MERCADO</h3>
+                            </script>
             </section>
 
-            <section class="right novidades">
+            <section class="right text1">
+                <h3>AQUI NA LR7 VOCÊ ENCONTRA OS PRODUTOS DE MELHOR QUALIDADE DO MERCADO</h3>                
+            </section>
+
+            <section class="right text2">
                 <h2>Novidades</h2>
+            </section>
+
+            <section class="right novidades">                
                 <ol>
                 <!-- primeiro produto -->
                 <li>
@@ -164,6 +173,30 @@
                     </figure>
                     </a>
                 </li>
+                <li>
+                    <a href="#">
+                    <figure>
+                    <img src="img/novidades/nov7.jpg">
+                    <figcaption>Chaveiros</figcaption>
+                    </figure>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                    <figure>
+                    <img src="img/novidades/nov8.jpg">
+                    <figcaption>Squeezes</figcaption>
+                    </figure>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                    <figure>
+                    <img src="img/novidades/nov9.jpg">
+                    <figcaption>Necessaires</figcaption>
+                    </figure>
+                    </a>
+                </li>
                 <!-- coloque mais produtos aqui! -->
             </ol>
 
@@ -175,7 +208,19 @@
 
     <!--footer-->
     <footer>
+        <ul>
+            <li><a href="#">Início</a></li>
+            <li><a href="#">Produtos</a></li>
+            <li><a href="#">Orçamentos</a></li>
+            <li><a href="#">Quem somos</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
         <h5>© TODOS OS DIREITOS RESERVADOS 2017 | LR7 MARKETING MULTIMÍDIA</h5>
+        <h4>
+        Contatos: <br />
+        Fone: (011) 99999-9999<br />
+        Endereço: Avenida Paulista, 9000
+        </h4>
     </footer>
     <!--footer-fim-->
 

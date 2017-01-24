@@ -1,41 +1,55 @@
 body { font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;}
-.container {margin: 0 auto; width: 1200px;}
-.painel { margin: 0; position:relative;}
+.container {margin: 0 auto; width: 1300px; border: solid 0px;}
+.painel { margin: 0; position:relative ;border: solid 0px;}
 
 /*cabecalho*/
-header {position: relative;}
-header h1{text-align: center;  color:#DC143C;}
+header {position: relative; width: 100%;}
+header h1{text-align: center; color:#DC143C; font-size: 36px;}
+.page-atual{background-color: #DC143C; color: #fff;}
 .menu-opcoes li{display: inline-block;	padding: 0 20px 20px 20px;}
-.menu-opcoes li a{text-decoration: none; color: #000; padding:5px; border-radius: 10px;}
+.menu-opcoes li a{text-decoration: none; color:; padding:5px; border-radius: 10px; font-size: 24px; color:#808080;}
 .menu-opcoes li a:hover{background-color: #DC143C; color: #FFB6C1;}
 .menu-opcoes li:hover{color:#c9c9c9;}
-.menu-opcoes ul{text-align: center; border-bottom: solid 1px;}
+.menu-opcoes ul{text-align: center; border-bottom: solid 1px #c1c1c1;}
+.entrega{ text-align: center; color:#fff; border:solid 1px; background-color: #363636; padding: 10px;}
 /*cabecalho-fim*/
 
-/*corpo*/
+/*menu esquerdo*/
 .corpo{height: 1300px; margin-top: 50px;}
 .left{ width: 250px; float:left;}
 .left h2{text-align:center; background-color: #DC143C; color: #fff; padding: 10px; border-radius: 20px;}
-.left li {display: block; border-bottom: solid 1px; margin-left: -40px;}
-.left a:hover{color:#B22222;; text-transform: uppercase; font-weight: bold;}
+.left li {display: block; border-bottom: solid 1px; margin-left: -40px; border-radius: 10px; margin-top:5px; padding-left: 15px;}
+.left li:hover{background-color:#DC143C; color: #fff; border-radius: 10px;}
 .left li ul{ display: none;}
 .left a{text-decoration: none; color: #000;}
-.right{ float:right; padding-right: 0px}
-.right h3{background-color: #DC143C; color: #fff; padding: 20px; border-radius: 20px;}
-.right img{width:800px; height: 600px; border: solid 1px; border-radius: 20px; margin-left:15px;}
+/*menu esquerdo-fim*/
 
-.pause, .play {display: block;position: absolute;right: 15px;top: 50px;}
-.pause {border-left: 10px solid #900;border-right: 10px solid #900;height: 30px;width: 5px;}
-.play {border-left: 25px solid #900;border-bottom: 15px solid transparent;border-top: 15px solid transparent;}
+/*menu direito*/
+.right{float:right; padding-right: 0px; border: solid 0px;}
+.text1 h3{ text-align: center; background-color: #DC143C; color: #fff; padding: 20px; border-radius: 20px; width:850px; margin-right: 20px;}
+.text2 h2{ text-align: center; color: #DC143C; border-bottom: solid 1px #c9c9c9; border-top: solid 1px #c9c9c9; width:250px; margin-top: 60px; border-radius: 10px;}
+.text1{border: solid 0px; margin-top: 50px}
+.text2{margin-right:370px;}
+.banner img{width:950px; height: 500px; border-radius: 20px; margin-left:80px; box-shadow: 0 0 5px #333;}
+.pause, .play {display: block;position: relative; left: 980px; top: 50px;}
+.pause {border-left: 10px solid #900; border-right: 10px solid #900; height: 30px; width: 5px;}
+.play {border-left: 25px solid #900; border-bottom: 15px solid transparent; border-top: 15px solid transparent;}
 
-.novidades { text-align: center;}
-.novidades li img{width:200px; height: 150px;}
-.novidades li {display: inline-block; vertical-align: top; width: 260px; height: 200px; margin:0 0 10px 20px; padding-bottom: 10px; box-shadow: 0 0 0px #333; transition: 0.7s;}
+/*menu direito-fim*/
+
+/*novidade*/
+.novidades { margin-bottom: 100px;  text-align: center; border: solid 0px; background-color: #c9c9c9;border-radius: 20px;}
+.novidades ol {margin-right: 50px; width:900px;}
+.novidades li img{width:180px; height: 150px; border: solid 0px;}
+.novidades li {background-color: #fff; border-radius: 20px; display: inline-block; vertical-align: top; width: 260px; height: 200px; margin:0 0 20px 20px; padding-bottom: 10px; box-shadow: 0 0 5px #333; transition: 0.7s;}
+.novidades a{ color: #DC143C; text-decoration: none; text-transform: uppercase;}
 .novidades li:hover{background-color: rgba(255,255,255,0.8); box-shadow: 0 0 5px #333; transition: 0.7s; transform: scale(1.2);}
-/*corpo-fim*/
+/*novidade-fim*/
 
 
 
 /*rodape*/
-footer {border-top: solid 1px; border-bottom: solid 1px; margin-top: 50px; padding:20px 0; text-align:center; clear: both; position: relative; background-color: #dcdcdc;}
+footer {border-top: solid 1px; border-bottom: solid 1px; margin-top: 100px; padding:20px 0; text-align:center; clear: both; position: relative; background-color: #dcdcdc;}
+footer li{display: inline-block; padding-right: 60px; text-transform: uppercase; }
+footer a{text-decoration: none; color: #808080;}
 /*rodape-fim*/
