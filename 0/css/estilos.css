@@ -3,14 +3,14 @@ body { font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;}
 .painel { margin: 0; position:relative ;border: solid 0px;}
 
 /*cabecalho*/
-header {position: relative; width: 100%;}
-header h1{text-align: center; color:#DC143C; font-size: 36px;}
-.page-atual{background-color: #DC143C; color: #fff;}
+header {position: relative; width:100%;}
+header h1{text-align:center; color:#DC143C; font-size:36px;}
+.menu-opcoes .page-atual{background-color:#DC143C; color:#fff;}
 .menu-opcoes li{display: inline-block;	padding: 0 20px 20px 20px;}
-.menu-opcoes li a{text-decoration: none; color:; padding:5px; border-radius: 10px; font-size: 24px; color:#808080;}
-.menu-opcoes li a:hover{background-color: #DC143C; color: #FFB6C1;}
-.menu-opcoes li:hover{color:#c9c9c9;}
-.menu-opcoes ul{text-align: center; border-bottom: solid 1px #c1c1c1;}
+.menu-opcoes a{text-decoration:none; color: #808080; padding:5px; border-radius:10px; font-size:20px; }
+.menu-opcoes a:hover{background-color:#DC143C; color:#fff;}
+.menu-opcoes li:hover{color:#fff;}
+.menu-opcoes ul{text-align: center; border-bottom: solid 1px #c9c9c9;}
 .entrega{ text-align: center; color:#fff; border:solid 1px; background-color: #363636; padding: 10px;}
 /*cabecalho-fim*/
 
@@ -18,7 +18,7 @@ header h1{text-align: center; color:#DC143C; font-size: 36px;}
 .corpo{height: 1300px; margin-top: 50px;}
 .left{ width: 250px; float:left;}
 .left h2{text-align:center; background-color: #DC143C; color: #fff; padding: 10px; border-radius: 20px;}
-.left li {display: block; border-bottom: solid 1px; margin-left: -40px; border-radius: 10px; margin-top:5px; padding-left: 15px;}
+.left li { font-size: 18px; display:block; color:#808080; border-bottom:solid 1px; margin-left:-40px; border-radius:10px; margin-top:5px; padding-left:15px;}
 .left li:hover{background-color:#DC143C; color: #fff; border-radius: 10px;}
 .left li ul{ display: none;}
 .left a{text-decoration: none; color: #000;}
@@ -27,8 +27,8 @@ header h1{text-align: center; color:#DC143C; font-size: 36px;}
 /*menu direito*/
 .right{float:right; padding-right: 0px; border: solid 0px;}
 .text1 h3{ text-align: center; background-color: #DC143C; color: #fff; padding: 20px; border-radius: 20px; width:850px; margin-right: 20px;}
-.text2 h2{ text-align: center; color: #DC143C; border-bottom: solid 1px #c9c9c9; border-top: solid 1px #c9c9c9; width:250px; margin-top: 60px; border-radius: 10px;}
-.text1{border: solid 0px; margin-top: 50px}
+.text2 h2{ text-align: center; color: #DC143C; border-bottom: solid 1px #c9c9c9; border-top: solid 1px #c9c9c9; width:250px; margin-top: 10px; border-radius: 10px;}
+.text1{border: solid 0px; margin-top: 20px}
 .text2{margin-right:370px;}
 .banner img{width:950px; height: 500px; border-radius: 20px; margin-left:80px; box-shadow: 0 0 5px #333;}
 .pause, .play {display: block;position: relative; left: 980px; top: 50px;}
@@ -47,9 +47,10 @@ header h1{text-align: center; color:#DC143C; font-size: 36px;}
 /*novidade-fim*/
 
 
-
 /*rodape*/
-footer {border-top: solid 1px; border-bottom: solid 1px; margin-top: 100px; padding:20px 0; text-align:center; clear: both; position: relative; background-color: #dcdcdc;}
-footer li{display: inline-block; padding-right: 60px; text-transform: uppercase; }
+footer { margin-top: 100px; padding:20px 0; text-align:center; clear: both; position: relative; background-color: #dcdcdc; height: 150px; padding: 30px;}
+footer li{display: inline-block; padding-right: 60px; text-transform: uppercase;}
+footer div{background-color: #dcdcdc;color:#808080;}
+footer ul{ border-bottom:solid 1px; color:#c9c9c9;}
 footer a{text-decoration: none; color: #808080;}
 /*rodape-fim*/
